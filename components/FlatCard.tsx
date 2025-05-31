@@ -1,12 +1,11 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 export default function FlatCard() {
   return (
     <View>
       <Text style={styles.headingText}>flat Card</Text>
-      <ScrollView horizontal={true}>
-        <View style={styles.container}>
+      <View style={styles.container}>
         <View style={[styles.card,styles.card1]}>
           <Text style={styles.innerText}>Red</Text>
         </View>
@@ -16,14 +15,8 @@ export default function FlatCard() {
         <View style={[styles.card,styles.card3]}>
           <Text style={styles.innerText}>blue</Text>
         </View>
-        <View style={[styles.card,styles.card4]}>
-          <Text style={styles.innerText}>cyan</Text>
-        </View>
-        <View style={[styles.card,styles.card5]}>
-          <Text style={styles.innerText}>yellow</Text>
-        </View>
+        
       </View>
-      </ScrollView>
     </View>
   )
 }
@@ -61,14 +54,6 @@ const styles = StyleSheet.create({
   card3:{
     
     backgroundColor:'blue'
-  },
-  card4:{
-    
-    backgroundColor:'cyan'
-  },
-  card5:{
-    
-    backgroundColor:'yellow'
   },
   innerText:{
     // textAlign:'center'
