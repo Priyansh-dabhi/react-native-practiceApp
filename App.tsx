@@ -4,8 +4,9 @@ import FlatCard from './components/FlatCard'
 const App = ():React.JSX.Element => {
   return (
     <SafeAreaView>
-      <ScrollView>
-        <Text style={{fontSize:42}}>App</Text>
+      <ScrollView style={{marginTop:60}}>
+        
+        {/* <Text style={{fontSize:42}}>App</Text> */}
         <FlatCard/>
       </ScrollView>
     </SafeAreaView>
