@@ -17,7 +17,7 @@ export default function FancyCard() {
             </View>
         </View>
     )
-}
+}   
 
 const styles = StyleSheet.create({
     headingText:{
