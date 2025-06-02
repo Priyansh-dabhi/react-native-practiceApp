@@ -4,6 +4,7 @@ import FlatCard from './components/FlatCard'
 import ElevatedCard from './components/ElevatedCard'
 import FancyCard from './components/FancyCard'
 import ActionCard from './components/ActionCard'
+import ContactList from './components/ContactList'
 const App = ():React.JSX.Element => {
   return (
     <SafeAreaView>
@@ -13,6 +14,7 @@ const App = ():React.JSX.Element => {
         <FlatCard/>
         <ElevatedCard/>
         <FancyCard/>
+        <ContactList/>
         <ActionCard/>
       </ScrollView>
     </SafeAreaView>
